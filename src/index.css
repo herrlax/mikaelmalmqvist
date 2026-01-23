@@ -1,22 +1,99 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-@import url(//fonts.googleapis.com/css?family=Quicksand:400,700);
+body {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  min-width: 320px;
+  min-height: 100vh;
+  color: #2a4546;
+}
 
-@layer base {
-  html,
-  body,
-  #root {
-    @apply m-0 h-full;
+#root {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(44, 44, 44, 0.87);
+  background-color: #f7f7f7;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
   }
-  body {
-    @apply bg-dark-grey text-off-white bg-writing bg-no-repeat bg-top bg-cover bg-fixed backdrop-filter backdrop-blur-sm text-xl antialiased;
+  button {
+    background-color: #f9f9f9;
   }
-  h1 {
-    @apply text-3xl font-medium my-6 pb-2 border-b border-solid border-white-0.15;
-  }
-  p {
-    @apply my-6;
-  }
+}
+
+/* h1 {
+  font-size: 4.2em;
+  line-height: 1.1;
+} */
+
+h2 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.text-base {
+  font-size: 1.1em;
+}
+
+.subtitle {
+  font-size: 1.8em;
+  line-height: 1;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+.subtitle-small {
+  font-size: 1.3em;
+  line-height: 1;
+}
+
+.font-curly {
+  font-family: 'Imperial Script', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-professional {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-professional-bold {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-professional-spaced {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.15em;
 }
