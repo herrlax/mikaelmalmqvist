@@ -6,22 +6,26 @@ export const Find: React.FC = () => {
   return (
     <PageWrapper>
       <Header />
-      <p className="text-base">
-        <b>Bil</b>: Adressen är{' '}
-        <a target="_blank" href="https://maps.app.goo.gl/KUMAgtJja5DVwkSx6" className="underline">
-          <address className="inline">Presterudsallén 2, Kristinehamn</address>
-        </a>
-        . Parkering finns i anslutning till herrgården.
-      </p>
-      <p className="text-base">
-        <b>Kollektivt</b>: Ta buss 3 från <strong>Kristinehamns Resecenter läge G</strong> eller
-        från <strong>Södra Torget</strong> till hållplats: <strong>Presterud</strong>. Följ sedan
-        Prestrudsallén som leder till herrgården och till campingreceptionen (ca 5 minuters
-        gångavstånd). Tidtabell och info hittas på{' '}
-        <a target="_blank" href="https://www.varmlandstrafik.se/" className="underline">
-          Värmlandstrafiks hemsida
-        </a>
-      </p>
+      <div className="flex flex-col h-full items-center w-full max-w-[600px] gap-3">
+        <p className="text-base">
+          <b>Bil</b>: Adressen är{' '}
+          <a target="_blank" href="https://maps.app.goo.gl/KUMAgtJja5DVwkSx6" className="underline">
+            <address className="inline">Presterudsallén 2, Kristinehamn</address>
+          </a>
+          .
+          <br />
+          Parkering finns i anslutning till herrgården.
+        </p>
+        <p className="text-base">
+          <b>Kollektivt</b>: Ta buss 3 från <strong>Kristinehamns Resecenter läge G</strong> eller
+          från <strong>Södra Torget</strong> till hållplats: <strong>Presterud</strong>. Följ sedan
+          Prestrudsallén som leder till herrgården och till campingreceptionen (ca 5 minuters
+          gångavstånd). Tidtabell och info hittas på{' '}
+          <a target="_blank" href="https://www.varmlandstrafik.se/" className="underline">
+            Värmlandstrafiks hemsida
+          </a>
+        </p>
+      </div>
     </PageWrapper>
   );
 };
