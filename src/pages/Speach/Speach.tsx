@@ -26,7 +26,7 @@ export const Speach: React.FC = () => {
           src="https://docs.google.com/forms/d/e/1FAIpQLSctJeMghgs1EYckI0VmOH3iC4GxSBUGzUkDWfgucK5eXYsgng/viewform?embedded=true"
           width="100%"
           height="100%"
-          className="rounded-2xl min-h-[1300px] md:min-h-[1100px]"
+          className="rounded-2xl min-h-[1600px] md:min-h-[1100px]"
         >
           Anmäl tal
         </iframe>
