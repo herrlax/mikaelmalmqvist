@@ -24,7 +24,7 @@ export const OSA: React.FC = () => {
           src="https://docs.google.com/forms/d/e/1FAIpQLSfv9QbSk11yUum8_1eOcpPFsFW0u4oHPI5py2dKYEKijEbQxg/viewform?embedded=true"
           width="100%"
           height="100%"
-          className="rounded-2xl min-h-[1700px] md:min-h-[1500px]"
+          className="rounded-2xl min-h-[2100px] md:min-h-[1500px]"
         >
           OSA här
         </iframe>
