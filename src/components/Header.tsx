@@ -20,10 +20,10 @@ export const Header: React.FC = () => {
           Hem
         </Link>
         •
-        <Link to="/osa" isActive={location.pathname === '/osa'}>
+        {/* <Link to="/osa" isActive={location.pathname === '/osa'}>
           OSA
         </Link>
-        •
+        • */}
         <Link to="/hitta-hit" isActive={location.pathname === '/hitta-hit'}>
           Hitta hit
         </Link>
@@ -34,6 +34,10 @@ export const Header: React.FC = () => {
         •
         <Link to="/tal" isActive={location.pathname === '/tal'}>
           Anmäl tal
+        </Link>
+        •
+        <Link to="/guide" isActive={location.pathname === '/guide'}>
+          Guide till Kristinehamn
         </Link>
       </nav>
     </>
