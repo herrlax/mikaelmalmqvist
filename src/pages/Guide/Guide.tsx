@@ -42,10 +42,10 @@ export const Guide: React.FC = () => {
               <p>
                 Cyklar finns att hyra för en tur in till stan, eller varför inte längre ut i
                 skärgården för att avnjuta stans stora (och fula) stolthet{' '}
-                <strong>Picassostatyn</strong>? Ja, den designad av Pablo Picasso himself (men han
-                satte aldrig sin fot i stan, hur mycket kommunen än vill skryta om sin unika
-                Picasso-koppling). Tar man sig ut hit rekommenderas glass, fika eller mat på{' '}
-                <strong>Picassos Veranda</strong>.
+                <strong>Picassostatyn</strong>? Ja, den är designad av Pablo Picasso himself (men
+                han satte aldrig sin fot i stan, hur mycket kommunen än vill skryta om sin unika
+                Picasso-koppling). Tar man sig ut hit rekommenderas mjukglass (med chokladdopp),
+                fika eller mat på <strong>Picassos Veranda</strong>.
               </p>
             </div>
           </div>
