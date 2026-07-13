@@ -19,7 +19,7 @@ export const Guide: React.FC = () => {
               <h3 className="font-professional-bold subtitle">Vid campingen</h3>
               <h4 className="font-professional-bold subtitle-small">Mat</h4>
               <p>
-                Cirka tio minuters promenad från campingen ligger{' '}
+                Cirka 10 minuters promenad från campingen ligger{' '}
                 <strong>Skymningen Mat & Café</strong>, perfekt för lunch eller fika!
               </p>
               <p>
@@ -55,10 +55,22 @@ export const Guide: React.FC = () => {
               <h4 className="font-professional-bold subtitle-small">Mat</h4>
               <p>
                 Det är inte för inte som <strong>Oliveriet</strong> ofta klassas som Värmlands bästa
-                restaurang, italienskt hantverk och deli at its finest! Här hittar man finfina
-                napolitanska pizzor. <strong>Restaurang Parma</strong> har också finfin italiensk
-                mat. Vill man ha enklare småstadspizza är <strong>Pizzeria Charlies</strong> vår
-                favorit. Mysigaste läget (vid vattnet) får man på <strong>Mastmagasinet</strong>.
+                restaurang – italienskt hantverk och deli at its finest! Här hittar man finfina
+                napolitanska pizzor.
+              </p>
+              <p>
+                <strong>Restaurang Parma</strong> har också autentisk italiensk mat. Det ligger
+                centralt på Kungsgatan, med god öl på tapp.
+              </p>
+              <p>
+                Vill man ha enklare italiensk mat är <strong>Pizzeria Charlies</strong> vår favorit
+                bland småstadspizzorna. Här beställer man med fördel en <strong>Royal</strong>.
+              </p>
+              <p>
+                Mysigaste läget (vid vattnet) får man på <strong>Mastmagasinet</strong>. Det var
+                även här vi spenderade vår gymnasiebal (och diverse utekvällar).
+              </p>
+              <p>
                 Klassisk pubmat hittas på <strong>Steak House 1895</strong> och{' '}
                 <strong>The Pub 27</strong>.
               </p>
@@ -67,7 +79,9 @@ export const Guide: React.FC = () => {
               <h4 className="font-professional-bold subtitle-small">Fika</h4>
               <p>
                 Vår solklara favorit är mysiga <strong>Krukmakeri Hemjord</strong> som säljer
-                egengjord glass och fika, otroligt kaffe och te, och även egentillverkad keramik.{' '}
+                egengjord glass och fika, otroligt kaffe och te, och även egentillverkad keramik.
+              </p>
+              <p>
                 <strong>Bageri Artisan</strong> har fantastiskt fikabröd, så bra att de blev virala
                 när en viss Benjamin Ingrosso ansåg att deras bageri i Karlstad tillverkar Sveriges
                 godaste kanelbullar (om han har rätt får ni avgöra själva).
@@ -83,8 +97,12 @@ export const Guide: React.FC = () => {
                   className="underline"
                 >
                   turisttåget Lusen
+                </a>{' '}
+                såklart! (eller kollektivtrfik. Sök resan på{' '}
+                <a target="_blank" href="https://www.varmlandstrafik.se/" className="underline">
+                  Värmlandstrafiks hemsida
                 </a>
-                .
+                .)
               </p>
             </div>
           </div>

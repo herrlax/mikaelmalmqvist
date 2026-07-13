@@ -24,6 +24,7 @@ export const Find: React.FC = () => {
           <a target="_blank" href="https://www.varmlandstrafik.se/" className="underline">
             Värmlandstrafiks hemsida
           </a>
+          .
         </p>
       </div>
     </PageWrapper>
